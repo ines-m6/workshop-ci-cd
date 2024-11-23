@@ -1,0 +1,31 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000w\u0000o\u0000r\u0000k\u0000s\u0000h\u0000o\u0000p\u0000-\u0000c\u0000i\u0000-\u0000c\u0000d\u0000\r\u0000 \u0000#\u0000 \u0000w\u0000o\u0000r\u0000k\u0000s\u0000h\u0000o\u0000p\u0000-\u0000c\u0000i\u0000-\u0000c\u0000d\u0000\r\u0000 \u0000\r\u0000 \u0000g\u0000j\u0000h\u0000g\u0000k\u0000j\u0000k\u0000k\u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "jest": {
+
+  "setupFilesAfterEnv": [
+
+   "./testSetup.js"
+
+  ]
+
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
